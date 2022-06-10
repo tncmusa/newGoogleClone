@@ -248,5 +248,39 @@ body {
     cursor: pointer;
 }
 
+.logotop {
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #202124;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    max-height: 290px;
+    height: calc(100% - 560px);
+    min-height: 92px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.logonottop {
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #202124;
+    height: 100%;
+    margin-top: auto;
+    max-height: 92px;
+    position: relative;
+}
 
+.logo {
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #202124;
+    height: 92px;
+    aspect-ratio: auto 272 / 92;
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center bottom;
+    width: auto;
+}
