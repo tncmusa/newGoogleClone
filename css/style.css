@@ -137,5 +137,54 @@ body {
     position: relative;
 }
 
+.googleapps {
+    font: 13px/27px Roboto,RobotoDraft,Arial,sans-serif;
+    white-space: nowrap;
+    line-height: normal;
+    display: inline-block;
+    outline: none;
+    vertical-align: middle;
+    border-radius: 2px;
+    box-sizing: border-box;
+    height: 40px;
+    width: 40px;
+    padding: 8px;
+    background-position: -64px -29px;
+    opacity: 1;
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.googleapps:hover {
+    font: 13px/27px Roboto,RobotoDraft,Arial,sans-serif;
+    white-space: nowrap;
+    line-height: normal;
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box;
+    height: 40px;
+    width: 40px;
+    padding: 8px;
+    outline: none;
+    border-radius: 50%;
+    background-color: rgba(60,64,67,.08);
+    background-position: -64px -29px;
+    opacity: 1;
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.googleapps2 {
+    font: 13px/27px Roboto,RobotoDraft,Arial,sans-serif;
+    white-space: nowrap;
+    line-height: normal;
+    cursor: pointer;
+    fill: currentColor;
+    color: #5f6368;
+    opacity: 1;
+}
+
 
 
