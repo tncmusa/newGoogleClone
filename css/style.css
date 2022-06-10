@@ -1,0 +1,131 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    min-width: 400px;
+}
+
+body, input, button {
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #202124;
+}
+
+body {
+    background: #fff;
+}
+
+.top {
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #202124;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.nottop {
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #202124;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 6px;
+}
+
+.LX3sZb {
+    display: inline-block;
+    flex-grow: 1;
+}
+
+.second {
+    color: black;
+    position: relative;
+    transition: box-shadow 250ms;
+    height: 48px;
+    font: 13px/27px Roboto,RobotoDraft,Arial,sans-serif;
+    z-index: 986;
+    min-width: auto;
+}
+
+.third {
+    color: black;
+    font: 13px/27px Roboto,RobotoDraft,Arial,sans-serif;
+    vertical-align: middle;
+    white-space: nowrap;
+    align-items: center;
+    display: flex;
+    box-sizing: border-box;
+    height: 48px;
+    line-height: normal;
+    padding: 0 4px;
+    flex: 0 0 auto;
+    justify-content: flex-end;
+    float: right;
+    padding-left: 32px;
+}
+
+.fourth {
+    color: black;
+    font: 13px/27px Roboto,RobotoDraft,Arial,sans-serif;
+    white-space: nowrap;
+    font-family: arial,sans-serif;
+    line-height: normal;
+    padding-right: 15px;
+}
+
+.fifth {
+    color: black;
+    font: 13px/27px Roboto,RobotoDraft,Arial,sans-serif;
+    white-space: nowrap;
+    font-family: arial,sans-serif;
+    line-height: normal;
+    display: inline-block;
+    padding-left: 15px;
+}
+
+.gb_d {
+    font: 13px/27px Roboto,RobotoDraft,Arial,sans-serif;
+    white-space: nowrap;
+    font-family: arial,sans-serif;
+    color: rgba(0,0,0,.87);
+    text-decoration: none;
+    display: inline-block;
+    line-height: 24px;
+    vertical-align: middle;
+}
+
+.svgli {
+    color: black;
+    font: 13px/27px Roboto,RobotoDraft,Arial,sans-serif;
+    white-space: nowrap;
+    line-height: normal;
+    position: relative;
+    float: right;
+}
+
+.svgli2 {
+    color: black;
+    font: 13px/27px Roboto,RobotoDraft,Arial,sans-serif;
+    white-space: nowrap;
+    line-height: normal;
+    display: inline;
+}
+
+.svgli3 {
+    color: black;
+    font: 13px/27px Roboto,RobotoDraft,Arial,sans-serif;
+    white-space: nowrap;
+    line-height: normal;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 4px;
+    padding-left: 4px;
+}
+
