@@ -284,3 +284,72 @@ body {
     object-position: center bottom;
     width: auto;
 }
+
+.searchtop {
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #202124;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    max-height: 160px;
+    padding: 20px;
+}
+
+.searchnottop {
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #202124;
+    margin: 0 auto;
+    padding-top: 6px;
+    width: auto;
+    max-width: 584px;
+    position: relative;
+}
+
+.inputclass {
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #202124;
+    display: flex;
+    z-index: 3;
+    height: 44px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: auto;
+    max-width: 584px;
+}
+
+.inputclass2 {
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #202124;
+    flex: 1;
+    display: flex;
+    padding: 5px 8px 0 14px;
+}
+
+.searchicontop {
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #202124;
+    display: flex;
+    align-items: center;
+    padding-right: 13px;
+    margin-top: -5px;
+}
+
+.searchiconspan {
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    display: inline-block;
+    fill: currentColor;
+    position: relative;
+    margin-top: 3px;
+    color: #9aa0a6;
+    height: 20px;
+    line-height: 20px;
+    width: 20px;
+}
