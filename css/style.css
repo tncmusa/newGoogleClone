@@ -306,6 +306,12 @@ body {
     position: relative;
 }
 
+.searchnottopfirst {
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #202124;
+}
+
 .inputclass {
     font-size: 14px;
     font-family: arial,sans-serif;
@@ -522,4 +528,109 @@ body {
     background-color: #f8f9fa;
     border: 1px solid #dadce0;
     color: #202124;
+}
+
+.beforefooter {
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #202124;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    flex-grow: 1;
+}
+
+.footerbegin {
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #202124;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    background: #f2f2f2;
+}
+
+.footer1 {
+    font-family: arial,sans-serif;
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #70757a;
+}
+
+.footer2 {
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #202124;
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer3 {
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #202124;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    min-width: 30%;
+    order: 1;
+}
+
+.footerlinks {
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    white-space: nowrap;
+    color: #70757a;
+}
+
+.footerlinks:hover {
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    display: block;
+    padding: 15px;
+    white-space: nowrap;
+    text-decoration: underline;
+    color: #70757a;
+}
+
+.footer4 {
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #202124;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    order: 2;
+}
+
+.carbonimg {
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    white-space: nowrap;
+    color: #70757a;
+    height: 14px;
+    margin-right: 6px;
+}
+
+.carbontext {
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #70757a;
+    white-space: nowrap;
+    vertical-align: top;
+}
+
+.footer5 {
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #202124;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    min-width: 30%;
+    order: 3;
 }
